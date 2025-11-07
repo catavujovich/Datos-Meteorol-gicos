@@ -1,0 +1,96 @@
+---
+title: "Análisis de datos meteorológicos con el paquete analisis.clima"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{analisis_clima}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(analisis.clima)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+```
+
+```{r}
+source("../R/leer_estacion.R")
+source("../R/tabla_resumen_temperatura.R")
+source("../R/grafico_temperatura_mensual.R")
+```
+
+
+# Cómo usar el paquete
+
+El paquete analisis.clima permite descargar, leer y analizar datos meteorológicos
+de diferentes estaciones. 
+
+Las funciones incluidas permiten:
+- Leer los archivos de datos de cada estación.
+- Calcular estadísticas básicas de temperatura.
+- Visualizar las temperaturas promedio mensuales.
+
+En esta viñeta se muestra cómo utilizarlas paso a paso.
+
+---
+## 1. Leer los datos de una estación
+
+La función leer_estacion() descarga los datos desde una fuente remota (si es necesario)
+y los guarda en formato CSV en la ruta indicada.
+Ejemplo de uso
+
+```{r}
+# Metadatos
+metadatos <- leer_estacion("metadatos_completos", "datos/metadatos.csv")
+
+# Estaciones
+NH0472 <- leer_estacion("NH0472", "datos/NH0472.csv")
+NH0910 <- leer_estacion("NH0910", "datos/NH0910.csv")
+NH0046 <- leer_estacion("NH0046", "datos/NH0046.csv")
+NH0098 <- leer_estacion("NH0098", "datos/NH0098.csv")
+NH0437 <- leer_estacion("NH0437", "datos/NH0437.csv")
+
+```
+
+## 2. Tabla resumen
+Podemos calcular la temperatura el promedio, el máximo, mínimo, entre otras, a 150 cm de altura usando
+la función tabla_resumen_temperatura():
+
+```{r}
+resumen_NH0472 <- tabla_resumen_temperatura(NH0472)
+resumen_NH0472
+```
+
+## 3. Visualización de datos
+
+La función grafico_temperatura_mensual() genera un gráfico con los valores promedios
+de temperatura por mes, para cada estación.
+Esto permite observar la evolución promedio de la temperatura a lo largo del año,
+facilitando la comparación entre diferentes estaciones o periodos.
+
+
+```{r}
+grafico_NH0472 <- grafico_temperatura_mensual(
+datos = NH0472,
+colores = "tomato",
+titulo = "Promedio mensual de temperatura - Estación NH0472"
+)
+grafico_NH0472
+```
+
+
+
+
+
+
+
