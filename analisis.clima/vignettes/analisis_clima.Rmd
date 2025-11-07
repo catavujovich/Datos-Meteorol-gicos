@@ -51,14 +51,14 @@ Ejemplo de uso
 
 ```{r}
 # Metadatos
-metadatos <- leer_estacion("metadatos_completos", "datos/metadatos.csv")
+metadatos <- leer_estacion("metadatos_completos", "../datos/metadatos.csv")
 
 # Estaciones
-NH0472 <- leer_estacion("NH0472", "datos/NH0472.csv")
-NH0910 <- leer_estacion("NH0910", "datos/NH0910.csv")
-NH0046 <- leer_estacion("NH0046", "datos/NH0046.csv")
-NH0098 <- leer_estacion("NH0098", "datos/NH0098.csv")
-NH0437 <- leer_estacion("NH0437", "datos/NH0437.csv")
+NH0472 <- leer_estacion("NH0472", "../datos/NH0472.csv")
+NH0910 <- leer_estacion("NH0910", "../datos/NH0910.csv")
+NH0046 <- leer_estacion("NH0046", "../datos/NH0046.csv")
+NH0098 <- leer_estacion("NH0098", "../datos/NH0098.csv")
+NH0437 <- leer_estacion("NH0437", "../datos/NH0437.csv")
 
 ```
 
