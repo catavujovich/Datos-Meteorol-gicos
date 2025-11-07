@@ -1,0 +1,55 @@
+
+# analisis.clima <img src="man/figures/imagen.png" align="right" width="120"/>
+
+# analisis.clima
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+**analisis.clima** es un paquete de R desarrollado para **leer, procesar
+y analizar datos meteorológicos** provenientes de distintas
+estaciones.  
+Incluye funciones para: - Importar datos de temperatura. - Generar
+tablas resumen con medidas estadísticas (media, mediana, mínimo y
+máximo). - Crear gráficos del promedio mensual de la temperatura de
+abrigo a 150 cm.
+
+## Installation
+
+Para instalar el paquete directamente desde GitHub, usá el siguiente
+comando en R:
+
+``` r
+# Instalar el paquete 'devtools' si no lo tenés
+install.packages("devtools")
+```
+
+``` r
+# Instalar el paquete analisis.clima desde GitHub
+devtools::install_github("catavujovich/analisis.clima")
+```
+
+Ejemplos de uso: Una vez instalado, cargá el paquete y probá sus
+funciones principales:
+
+``` r
+library(analisis.clima)
+```
+
+# Leer datos de una estación
+
+NH0472 \<- leer_estacion(“NH0472”, “datos/NH0472.csv”)
+
+# Crear una tabla resumen de temperatura
+
+tabla_resumen_temperatura(NH0472)
+
+# Generar un gráfico de temperatura mensual promedio
+
+grafico_temperatura_mensual( NH0472, colores = “tomato”, titulo =
+“Promedio mensual de la temperatura (150 cm) - Estación NH0472” )
+
+## Autores
+
+Catalina Vujovich Victoria Barrias
