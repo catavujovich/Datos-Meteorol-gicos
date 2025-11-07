@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/catavujovich/Datos-Meteorol-gicos/graph/badge.svg)](https://app.codecov.io/gh/catavujovich/Datos-Meteorol-gicos)
 <!-- badges: end -->
 
 **analisis.clima** es un paquete de R desarrollado para **leer, procesar
