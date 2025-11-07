@@ -13,3 +13,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/catavujovich/Datos-Meteorol-gicos
+BugReports: https://github.com/catavujovich/Datos-Meteorol-gicos/issues
