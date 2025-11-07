@@ -8,7 +8,7 @@ Description: Paquete desarrollado para leer, analizar y procesar datos meteorol√
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.3.3
 Suggests: 
     knitr,
     rmarkdown
