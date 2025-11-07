@@ -3,7 +3,7 @@ Title: Analisis de datos de estaciones meteorlogicas.
 Version: 0.0.0.9000
 Authors@R: 
     person("Catalina", "Vujovich", , "catavujovich17@gmail.com", role = c("aut", "cre"))
-    person("Victoria", "Barrias Tiberi", , "victoria.nieves.barrias.tiberi@gmail.com", role = c("aut")
+    person("Victoria", "Barrias Tiberi", , "victoria.nieves.barrias.tiberi@gmail.com", role = "aut")
 Description: Paquete desarrollado para leer, analizar y procesar datos meteorológicos de distintas estaciones.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
