@@ -1,35 +1,4 @@
-url: ~
-
-
-
+url: https://catavujovich.github.io/Datos-Meteorol-gicos/
 template:
   bootstrap: 5
-  bootswatch: flatly
-  params:
-    bootswatch: flatly
 
-navbar:
-  structure:
-    left:
-      - home
-      - reference
-      - articles
-      - authors
-  components:
-    home:
-      text: "Inicio"
-      href: index.html
-    reference:
-      text: "Funciones"
-      href: reference/index.html
-    articles:
-      text: "Ejemplos"
-      href: articles/index.html
-    authors:
-      text: "Autores"
-      href: authors.html
-
-home:
-  title: "analisis.clima"
-  description: "Paquete para analizar y visualizar datos meteorológicos"
-  logo: man/figures/imagen.png
