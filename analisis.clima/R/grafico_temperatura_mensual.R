@@ -41,7 +41,7 @@ grafico_temperatura_mensual <- function(datos, colores = "darkgreen", titulo = "
   #  Genera un gráfico de líneas y puntos
   #     Cada estación ('id') tiene un color distinto
   grafico <- ggplot(temp_mensual, aes(x = mes, y = promedio, color = id, group = id)) +
-    geom_line(size = 1) +     # Línea que une los promedios mensuales
+    geom_line(linewidth = 1) +     # Línea que une los promedios mensuales
     geom_point(size = 2) +    # Puntos en cada mes
     scale_color_manual(values = colores) +  # Colores personalizados
 
