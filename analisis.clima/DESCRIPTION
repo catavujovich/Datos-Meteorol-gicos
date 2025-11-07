@@ -15,7 +15,6 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
-<<<<<<< HEAD
 Depends: 
     R (>= 3.5)
 LazyData: true
@@ -24,7 +23,6 @@ Imports:
     ggplot2,
     lubridate
 Config/testthat/edition: 3
-=======
 URL: https://github.com/catavujovich/Datos-Meteorol-gicos
 BugReports: https://github.com/catavujovich/Datos-Meteorol-gicos/issues
->>>>>>> 72b51c111e2370d22c0eba5f9c654e49054cbcff
+
