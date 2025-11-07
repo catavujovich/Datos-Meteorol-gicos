@@ -1,8 +1,6 @@
 
 # analisis.clima <img src="man/figures/imagen.png" align="right" width="120"/>
 
-# analisis.clima
-
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml)
@@ -39,19 +37,6 @@ funciones principales:
 ``` r
 library(analisis.clima)
 ```
-
-# Leer datos de una estación
-
-NH0472 \<- leer_estacion(“NH0472”, “datos/NH0472.csv”)
-
-# Crear una tabla resumen de temperatura
-
-tabla_resumen_temperatura(NH0472)
-
-# Generar un gráfico de temperatura mensual promedio
-
-grafico_temperatura_mensual( NH0472, colores = “tomato”, titulo =
-“Promedio mensual de la temperatura (150 cm) - Estación NH0472” )
 
 ## Autores
 
