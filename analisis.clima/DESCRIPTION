@@ -5,8 +5,7 @@ Authors@R:
     person("Catalina", "Vujovich", , "catavujovich17@gmail.com", role = c("aut", "cre"))
     person("Victoria", "Barrias Tiberi", , "victoria.nieves.barrias.tiberi@gmail.com", role = c("aut", "cre"))
 Description: Paquete desarrollado para leer, analizar y procesar datos meteorológicos de distintas estaciones.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.0
