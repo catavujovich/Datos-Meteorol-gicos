@@ -1,12 +1,7 @@
-url: ~
-
-
+url: https://catavujovich.github.io/analisis.clima/
 
 template:
   bootstrap: 5
-  bootswatch: flatly
-  params:
-    bootswatch: flatly
 
 navbar:
   structure:
@@ -15,6 +10,7 @@ navbar:
       - reference
       - articles
       - authors
+
   components:
     home:
       text: "Inicio"
@@ -31,5 +27,8 @@ navbar:
 
 home:
   title: "analisis.clima"
-  description: "Paquete para analizar y visualizar datos meteorológicos"
-  logo: man/figures/imagen.png
+  description: "Paquete para analizar y visualizar datos meteorológicos."
+  links:
+    - text: "Repositorio en GitHub"
+      href: https://github.com/catavujovich/analisis.clima
+

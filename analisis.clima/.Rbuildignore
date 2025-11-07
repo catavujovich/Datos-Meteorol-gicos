@@ -9,4 +9,7 @@
 >>>>>>> 033e2da013e6ac67ff78a33696632fdd09e39fa0
 ^README\.Rmd$
 ^\.github$
+<<<<<<< HEAD
 ^CODE_OF_CONDUCT\.md$
+=======
+>>>>>>> bda93bbd61b508eb0503c6d8dfe441874dd3813f

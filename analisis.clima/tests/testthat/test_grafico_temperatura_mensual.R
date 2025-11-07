@@ -7,7 +7,11 @@ test_that("grafico_temperatura_mensual genera un gráfico ggplot", {
   )
 
   # Ejecutamos la función
-  grafico <- grafico_temperatura_mensual(datos)
+  grafico <- grafico_temperatura_mensual(
+    datos = NH0472,
+    colores = c("steelblue"),
+    titulo = "Promedio mensual de temperatura — Estación NH0472"
+  )
 
   # Expectativas
   expect_s3_class(grafico, "ggplot")               # Debe devolver un objeto ggplot
