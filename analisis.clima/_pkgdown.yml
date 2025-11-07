@@ -33,4 +33,4 @@ navbar:
 home:
   title: "analisis.clima"
   description: "Paquete para analizar y visualizar datos meteorológicos"
-  logo: man/figures/logo.png
+  logo: man/figures/imagen.png
