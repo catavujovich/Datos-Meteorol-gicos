@@ -1,5 +1,10 @@
 ^analisis\.clima\.Rproj$
 ^\.Rproj\.user$
+<<<<<<< HEAD
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+=======
+^LICENSE\.md$
+>>>>>>> 033e2da013e6ac67ff78a33696632fdd09e39fa0
+^README\.Rmd$
