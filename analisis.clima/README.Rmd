@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 # analisis.clima
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/catavujovich/Datos-Meteorol-gicos/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 **analisis.clima** es un paquete de R desarrollado para **leer, procesar y analizar datos meteorológicos** provenientes de distintas estaciones.  
